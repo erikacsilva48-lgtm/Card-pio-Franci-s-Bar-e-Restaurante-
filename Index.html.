@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio - Franci's Bar e Restaurante</title>
+<style>
+  body {
+    font-family: 'Georgia', serif;
+    background: #f5f0e1 url('https://i.ibb.co/3YQ4G1B/wood-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #3e2723;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    background: rgba(255, 248, 240, 0.9);
+    border-bottom: 3px solid #8d6e63;
+  }
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  header h2 {
+    font-size: 1.5em;
+    margin: 5px 0 0 0;
+    font-weight: normal;
+  }
+  .menu {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 248, 240, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #8d6e63;
+    font-size: 1.2em;
+  }
+  .item:last-child {
+    border-bottom: none;
+  }
+  @media (max-width: 500px) {
+    .item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>FRANCI'S BAR E RESTAURANTE</h1>
+  <h2>Cardápio</h2>
+</header>
+
+<div class="menu">
+  <div class="item"><span>Bife (contra filé) à parmegiana</span><span>R$30,00</span></div>
+  <div class="item"><span>Bife (contra filé) à cavalo</span><span>R$28,00</span></div>
+  <div class="item"><span>Bife acebolado</span><span>R$25,00</span></div>
+  <div class="item"><span>Filé de frango à parmegiana</span><span>R$23,00</span></div>
+  <div class="item"><span>Panqueca de frango ou carne</span><span>R$22,00</span></div>
+  <div class="item"><span>Omelete (vinagrete, queijo e orégano)</span><span>R$20,00</span></div>
+  <div class="item"><span>Filé de frango grelhado</span><span>R$20,00</span></div>
+  <div class="item"><span>Bisteca (porco) à cavalo</span><span>R$20,00</span></div>
+  <div class="item"><span>Filé de frango à milanesa (promocional)</span><span>R$18,00</span></div>
+  <div class="item"><span>Calabresa acebolada (promocional)</span><span>R$18,00</span></div>
+  <div class="item"><span>Bisteca (porco) acebolada (promocional)</span><span>R$18,00</span></div>
+  <div class="item"><span>Virado à Paulista</span><span>R$26,00</span></div>
+</div>
+</body>
+</html>
